@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 120%;
+    font-family: "Helvetica", Arial, sans-serif;
+    line-height: 1.4;
+    background-color: #fff;
+    color: #000;
+}
+h1 {
+    text-align: center;
+    padding: 2rem;
+    color: indianred;
+}
+h2 {
+    padding:  1rem 0 1rem 0;
+    color: indianred;
+}
+nav {
+    background-color:#000;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+nav a.aktuell {
+    font-weight: bold;
+}
+a:hover {
+    color: indianred;
+}
+main {
+    width: 62rem;
+    display: flex;
+    margin: auto;
+}
+article {
+    text-align: justify;
+    width: 50%;
+    margin: 0 2rem;
+}
+article ul {
+    list-style: none;
+}
+article a {
+    text-decoration: none;
+    color: grey;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: #000 solid 0.5px;
+    border-radius: 0.2rem;
+    box-shadow: #000 0.1rem 0.1rem 0.1rem;
+}
+.info-site {
+    text-align: center;
+    line-height: 1.9;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/***************/
+@media screen and (max-width: 720px) {
+    main {
+        display: block;
+    }
+    article {
+        max-width: auto;
+    }
+}
